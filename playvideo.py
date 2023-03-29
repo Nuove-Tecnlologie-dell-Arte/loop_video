@@ -1,6 +1,6 @@
 import cv2
 
-def mammt(nume):
+def video_captuire(nume):
     # Carica il video
     filename=str(nume)
     cap = cv2.VideoCapture('vid/'+filename+'.mp4')
